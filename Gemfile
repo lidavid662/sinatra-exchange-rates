@@ -10,6 +10,7 @@ gem "sinatra-contrib"
 gem "puma", "~> 5.0"
 
 gem "http"
+gem "json"
 
 group :development do
   gem "better_errors"

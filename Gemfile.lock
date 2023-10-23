@@ -65,6 +65,7 @@ GEM
     http-form_data (2.3.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
+    json (2.6.3)
     llhttp-ffi (0.4.0)
       ffi-compiler (~> 1.0)
       rake (~> 13.0)
@@ -167,6 +168,7 @@ DEPENDENCIES
   grade_runner
   http
   i18n
+  json
   pry
   puma (~> 5.0)
   rspec

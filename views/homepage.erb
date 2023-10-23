@@ -1,0 +1,10 @@
+<h1>Currency pairs</h1>
+<ul>
+  <% @symbols.each do |curr| %>
+    <li>
+      <% firstcurr=curr[0]%>
+      <a href="/<%= firstcurr %>"> Convert 1 <%= firstcurr %> to...
+      <% %>
+    </li>
+  <% end %>
+</ul>

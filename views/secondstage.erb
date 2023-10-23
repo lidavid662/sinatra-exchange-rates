@@ -1,0 +1,12 @@
+<h1>Convert <%=@firstcurr%></h1>
+
+<p>Go <a href="/">back</a>.</p>
+<ul>
+  <% @symbols2.each do |curr| %>
+    <li>
+      <% secondcurr=curr[0]%>
+      <a href="/<%=@firstcurr%>/<%= secondcurr %>">Convert 1 <%=@firstcurr%> to <%= secondcurr %>...
+      <% %>
+    </li>
+  <% end %>
+</ul>
